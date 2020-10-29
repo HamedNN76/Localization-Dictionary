@@ -1,5 +1,5 @@
 {
-  "name": "biz-dic",
+  "name": "localization-dictionary",
   "version": "1.0.0",
   "description": "A simple project for syncing localization dictionary with google sheets",
   "main": "index.js",
