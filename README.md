@@ -18,7 +18,7 @@ npm i --save-dev localization-dictionary
 
 ## Using the package
 
-1. Open [Localization-dictionary.xlsx](Localization-dictionary.xlsx) on google sheets, and you have to fill the sheets with you keys and values.
+1. Open [Localization-dictionary.xlsx](Localization-dictionary.xlsx) on google sheets, and you have to fill the sheets with you keys and values. *Keys can be nested with "__", for example: profile.logo => profile__logo
 2. Enable your google sheets api. https://developers.google.com/sheets/api/quickstart/nodejs ( In resulting dialog click DOWNLOAD CLIENT CONFIGURATION and save the file credentials.json to this project's root directory.)
 3. Specify you language detectors and column index in the [config.js](config.js) file, for example:
 ```
