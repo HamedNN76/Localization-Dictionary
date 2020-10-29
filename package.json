@@ -1,7 +1,7 @@
 {
   "name": "biz-dic",
   "version": "1.0.0",
-  "description": "A simple project for syncing BIZ dictionary with google sheets",
+  "description": "A simple project for syncing localization dictionary with google sheets",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon .",
@@ -12,11 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@tpi.uneed.ir:HamedNN76/biz-dic.git"
+    "url": "git@github.com:HamedNN76/Localization-Dictionary.git"
   },
   "author": "HamedNN76",
   "license": "MIT",
   "dependencies": {
     "googleapis": "^39.2.0"
-  }
+  },
+  "keywords": [
+    "localization",
+    "dictionary",
+    "localization-dictionary",
+    "i18n",
+    "node",
+    "javascript",
+    "react",
+    "react-native"
+  ]
 }
