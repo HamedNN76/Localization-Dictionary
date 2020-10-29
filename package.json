@@ -1,0 +1,22 @@
+{
+  "name": "biz-dic",
+  "version": "1.0.0",
+  "description": "A simple project for syncing BIZ dictionary with google sheets",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node index.js",
+    "web": "npm start -- web",
+    "android": "npm start -- android",
+    "ios": "npm start -- ios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@tpi.uneed.ir:HamedNN76/biz-dic.git"
+  },
+  "author": "HamedNN76",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^39.2.0"
+  }
+}
